@@ -82,7 +82,7 @@ var Loans = /*#__PURE__*/function () {
               return (0, _classPrivateFieldGet2["default"])(this, _api).get({
                 uri: 'loans',
                 params: {
-                  accountAddress: (0, _classPrivateFieldGet2["default"])(this, _account).getAddress(),
+                  accountAddress: options.address,
                   counterparty: options.filters.counterparty,
                   status: options.filters.status
                 }
